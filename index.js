@@ -1,2 +1,5 @@
- // First Javascript Code
- console.log('Hello World');
+let person = {
+    name: 'Zee',
+    age: 25
+}
+console.log(person);
