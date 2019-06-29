@@ -7,7 +7,7 @@ function stopWatch() {
 
     return {
     start: function() {
-        if (running)
+        if (running == true)
             throw new Error('Stopwatch is already running');
         
         running = true;
@@ -17,7 +17,7 @@ function stopWatch() {
     },
 
     stop: function() {
-        if (!running)
+        if (running == false)
             throw new Error('Stopwatch has already stopped');
         
         running = false;
